@@ -34,7 +34,7 @@ if (!rootElement.innerHTML) {
     <StrictMode>
       <QueryClientProvider client={queryClient}>
         <RouterProvider router={router} />
-      </QueryClientProvider>{" "}
+      </QueryClientProvider>
     </StrictMode>
   );
 }
